@@ -47,20 +47,21 @@ body{
 /* ---------------------- */
 /* ------------- */
 #time{
-    font-size: 10rem;
+    font-size: 11vw;
     font-weight: 600;
     color: #585858;
 }
 #date{
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 4vw;
     color: #585858;
 }
 
 /* -------------------------- */
 #middleup-box {
-    margin:80px  30px;
+    margin:80px -15px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 #middleup-box .boxesmiddle {
