@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px 90px ;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    font-size: 2rem;
+    font-family: 'Monoton', cursive;
+    padding-bottom:30px;
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+/* ---------------------- */
+.text{
+    color: rgb(255, 82, 20);
+    background-color: #585858;
+    border-radius: 3px;
+    border: 1px solid #585858;
+}
+.textone{
+    color: rgb(255, 82, 20);
+    font-size: 3rem;
+    font-family: 'Monoton', cursive;
+}
+
+.para{
+    color: #585858;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    width: 35vw;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------- */
+/* ------------- */
+#time{
+    font-size: 10rem;
+    font-weight: 600;
+    color: #585858;
+}
+#date{
+    font-weight: 600;
+    font-size: 3rem;
+    color: #585858;
+}
+
+/* -------------------------- */
+#middleup-box {
+    margin:80px  30px;
+    display: flex;
+    justify-content: center;
+}
+#middleup-box .boxesmiddle {
+    border-radius: 3px;
+    margin: 0px 6px;
+    width: 175px;
+    color: #585858;
+    cursor: pointer;
+    height: auto;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 2px 4px 0 rgba(80, 80, 80, 0.87);
+}
+.boxesmiddle {
+    padding: 7px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+/*  */
+#middleup-box .boxesmiddle:hover{
+    background-color: rgb(233, 233, 233);
+    transition: 300ms;
+}
+button:hover{
+    background-color: #383838;
+    transition: 500ms;
+    cursor:pointer;
+}
+.nav a:hover{
+    background-color: #383838;
+    transition: 500ms;
+}
+#time:hover{
+    cursor: pointer;
+    color:#383838;
+}
+#date:hover{
+    cursor: pointer;
+    color:#383838;
+}
